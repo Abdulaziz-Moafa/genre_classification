@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/6bd714840438489db2d9aa72c034930e/artifacts
+end_time: 1756212331947
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bd714840438489db2d9aa72c034930e
+run_name: serious-rook-94
+run_uuid: 6bd714840438489db2d9aa72c034930e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756212196067
+status: 3
+tags: []
+user_id: abdulazizalmoafa

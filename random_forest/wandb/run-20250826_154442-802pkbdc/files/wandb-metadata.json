@@ -1,0 +1,51 @@
+{
+  "os":  "macOS-15.1.1-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.5",
+  "startedAt":  "2025-08-26T12:44:42.040850Z",
+  "args":  [
+    "--train_data",
+    "data_train.csv:latest",
+    "--model_config",
+    "/Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/outputs/2025-08-26/15-43-19/random_forest_config.yml",
+    "--export_artifact",
+    "model_export",
+    "--random_seed",
+    "42",
+    "--val_size",
+    "0.3",
+    "--stratify",
+    "genre"
+  ],
+  "program":  "/Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/random_forest/run.py",
+  "codePath":  "random_forest/run.py",
+  "codePathLocal":  "run.py",
+  "git":  {
+    "remote":  "https://github.com/Abdulaziz-Moafa/genre_classification.git",
+    "commit":  "d773f8915054e7067b0be2e8018f6db5a8d56677"
+  },
+  "email":  "IIMOAAFA@GMAIL.COM",
+  "root":  "/Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/random_forest",
+  "host":  "Mac-Amoafa.local",
+  "executable":  "/opt/anaconda3/envs/mlflow-d53a6acb73467b0e223e15455db910c823f8fea0/bin/python",
+  "cpu_count":  12,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "478613954560"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M2 Pro",
+    "ecpuCores":  4,
+    "pcpuCores":  8,
+    "gpuCores":  19,
+    "memoryGb":  16,
+    "swapTotalBytes":  "17179869184",
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "aa0j5bl0df6z2mnnjk2xtzs4x86c33w7"
+}

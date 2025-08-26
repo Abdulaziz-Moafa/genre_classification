@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/5871338eea0e46d88c81d8b59c6c76e8/artifacts
+end_time: 1756211849256
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5871338eea0e46d88c81d8b59c6c76e8
+run_name: suave-squid-1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756211761796
+status: 3
+tags: []
+user_id: abdulazizalmoafa

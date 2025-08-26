@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/5ce9ffc60e0d4c98af11126022e50c16/artifacts
+end_time: 1756210512993
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ce9ffc60e0d4c98af11126022e50c16
+run_name: receptive-shark-832
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756210487619
+status: 3
+tags: []
+user_id: abdulazizalmoafa

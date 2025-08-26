@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/9c241ca4dd8f45f9b26b981a513da817/artifacts
+end_time: 1756211643785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c241ca4dd8f45f9b26b981a513da817
+run_name: funny-lynx-275
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756211631106
+status: 3
+tags: []
+user_id: abdulazizalmoafa

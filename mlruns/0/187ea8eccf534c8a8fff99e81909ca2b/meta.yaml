@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/187ea8eccf534c8a8fff99e81909ca2b/artifacts
+end_time: 1756212250350
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 187ea8eccf534c8a8fff99e81909ca2b
+run_name: shivering-owl-426
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756212233711
+status: 3
+tags: []
+user_id: abdulazizalmoafa

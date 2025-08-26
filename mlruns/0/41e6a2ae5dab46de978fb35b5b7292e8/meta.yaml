@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/41e6a2ae5dab46de978fb35b5b7292e8/artifacts
+end_time: 1756211470096
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41e6a2ae5dab46de978fb35b5b7292e8
+run_name: magnificent-auk-30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756211457048
+status: 3
+tags: []
+user_id: abdulazizalmoafa

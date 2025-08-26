@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/0ee1194f0277476696126dc406053e68/artifacts
+end_time: 1756210540501
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ee1194f0277476696126dc406053e68
+run_name: fortunate-whale-793
+run_uuid: 0ee1194f0277476696126dc406053e68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756210393783
+status: 4
+tags: []
+user_id: abdulazizalmoafa

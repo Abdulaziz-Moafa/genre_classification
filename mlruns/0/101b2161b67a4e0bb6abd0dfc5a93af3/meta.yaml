@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/101b2161b67a4e0bb6abd0dfc5a93af3/artifacts
+end_time: 1756211761770
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 101b2161b67a4e0bb6abd0dfc5a93af3
+run_name: useful-shrimp-349
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756211691150
+status: 3
+tags: []
+user_id: abdulazizalmoafa

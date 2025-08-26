@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/134cf10e41094c4aa95cc3d9bd7e8c83/artifacts
+end_time: 1756212215863
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 134cf10e41094c4aa95cc3d9bd7e8c83
+run_name: amazing-kit-605
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756212199901
+status: 3
+tags: []
+user_id: abdulazizalmoafa

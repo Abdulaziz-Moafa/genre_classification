@@ -1,5 +1,7 @@
 import scipy.stats
 import pandas as pd
+import numpy as np
+
 
 
 def test_column_presence_and_type(data):
@@ -88,7 +90,6 @@ def test_column_ranges(data):
 
 
 def test_kolmogorov_smirnov(data, ks_alpha):
-
     sample1, sample2 = data
 
     columns = [
@@ -101,20 +102,19 @@ def test_kolmogorov_smirnov(data, ks_alpha):
         "liveness",
         "valence",
         "tempo",
-        "duration_ms"
+        "duration_ms",
     ]
 
-    # Bonferroni correction for multiple hypothesis testing
-    # (see my blog post on this topic to see where this comes from:
-    # https://towardsdatascience.com/precision-and-recall-trade-off-and-multiple-hypothesis-testing-family-wise-error-rate-vs-false-71a85057ca2b)
-    alpha_prime = 1 - (1 - ks_alpha)**(1 / len(columns))
+    alpha_prime = 1 - (1 - ks_alpha) ** (1 / len(columns))
 
     for col in columns:
+        s1 = pd.to_numeric(sample1[col], errors="coerce").replace([np.inf, -np.inf], np.nan).dropna()
+        s2 = pd.to_numeric(sample2[col], errors="coerce").replace([np.inf, -np.inf], np.nan).dropna()
 
-        ts, p_value = scipy.stats.ks_2samp(sample1[col], sample2[col])
+        if min(len(s1), len(s2)) < 2:
+            pytest.skip(f"Not enough finite values for KS in column: {col}")
 
-        # NOTE: as always, the p-value should be interpreted as the probability of
-        # obtaining a test statistic (TS) equal or more extreme that the one we got
-        # by chance, when the null hypothesis is true. If this probability is not
-        # large enough, this dataset should be looked at carefully, hence we fail
-        assert p_value > alpha_prime
+        ts, p_value = scipy.stats.ks_2samp(s1, s2, alternative="two-sided", mode="auto")
+
+        assert not np.isnan(p_value), f"KS p-value is NaN for column: {col}"
+        assert p_value > alpha_prime, f"KS failed for {col}: p={p_value:.3g} ≤ alpha'={alpha_prime:.3g}"

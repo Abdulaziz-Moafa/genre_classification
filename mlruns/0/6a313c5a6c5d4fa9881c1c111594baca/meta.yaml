@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/6a313c5a6c5d4fa9881c1c111594baca/artifacts
+end_time: 1756210487592
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a313c5a6c5d4fa9881c1c111594baca
+run_name: delicate-dog-260
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756210446138
+status: 3
+tags: []
+user_id: abdulazizalmoafa

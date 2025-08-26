@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/abdulazizalmoafa/Documents/mlops/02/ex10-git/genre_classification/mlruns/0/cae140d4f3c74ff0a6d1c5753c25d7b4/artifacts
+end_time: 1756211691124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cae140d4f3c74ff0a6d1c5753c25d7b4
+run_name: aged-seal-4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756211643809
+status: 3
+tags: []
+user_id: abdulazizalmoafa

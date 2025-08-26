@@ -1,6 +1,0 @@
-2025-08-26 15:38:20,206 Downloading and reading test artifact
-2025-08-26 15:38:24,434 Extracting target from dataframe
-2025-08-26 15:38:24,435 Downloading and reading the exported model
-[34m[1mwandb[0m:   7 of 7 files downloaded.  
-2025-08-26 15:38:30,656 Scoring
-2025-08-26 15:38:30,730 Computing confusion matrix
